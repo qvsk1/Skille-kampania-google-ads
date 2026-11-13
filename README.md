@@ -30,6 +30,12 @@ google-ads-3-kampania/
 
 `zaawansowane.md` przydaje się, gdy pomiar już był ustawiony i coś się nie zgadza: konwersji jest za dużo albo za mało, formularz nie ma strony podziękowania, baner zgód działa dziwnie, chcesz konwersje rozszerzone albo porównać dwa landingi. Jest tam też skrypt, którym Claude czyta nagranie sesji z Tag Assistant. Ten plik musi leżeć w tym samym folderze co `SKILL.md`.
 
+## Pobierz
+
+[google-ads-1-pomiar.zip](https://github.com/qvsk1/Skille-kampania-google-ads/releases/latest/download/google-ads-1-pomiar.zip) · [google-ads-2-oferta.zip](https://github.com/qvsk1/Skille-kampania-google-ads/releases/latest/download/google-ads-2-oferta.zip) · [google-ads-3-kampania.zip](https://github.com/qvsk1/Skille-kampania-google-ads/releases/latest/download/google-ads-3-kampania.zip)
+
+Instrukcja wgrania niżej, w „Jak zainstalować”.
+
 ## Czego potrzebujesz
 
 - Konta Claude z włączonymi skillami (płatny plan).
@@ -41,8 +47,13 @@ google-ads-3-kampania/
 
 **Aplikacja Claude (przeglądarka albo komputer)**
 
-1. W ustawieniach, w części „Capabilities”, włącz wykonywanie kodu i tworzenie plików.
-2. Każdy z trzech folderów spakuj osobno do pliku ZIP. W środku ma być folder o nazwie skilla, a w nim jego pliki. Przy `google-ads-1-pomiar` to dwa pliki: `SKILL.md` i `zaawansowane.md`.
+1. Pobierz trzy gotowe paczki:
+   - [google-ads-1-pomiar.zip](https://github.com/qvsk1/Skille-kampania-google-ads/releases/latest/download/google-ads-1-pomiar.zip)
+   - [google-ads-2-oferta.zip](https://github.com/qvsk1/Skille-kampania-google-ads/releases/latest/download/google-ads-2-oferta.zip)
+   - [google-ads-3-kampania.zip](https://github.com/qvsk1/Skille-kampania-google-ads/releases/latest/download/google-ads-3-kampania.zip)
+
+   Nie rozpakowuj ich.
+2. W ustawieniach, w części „Capabilities”, włącz wykonywanie kodu i tworzenie plików.
 3. Wejdź w „Customize” → „Skills” → „+” → „Create skill” → „Upload a skill”, wgraj ZIP i włącz skill przełącznikiem. Powtórz dla trzech plików.
 
 Nazwy w aplikacji mogą być po polsku albo się zmienić. Szukaj ustawień skilli i opcji wgrania własnego.
