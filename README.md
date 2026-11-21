@@ -11,8 +11,8 @@ Skille nie łączą się z Twoimi kontami i nie proszą o hasła. W Google Ads, 
 | Nr | Skill | Co dostajesz |
 |---|---|---|
 | 1 | `google-ads-1-pomiar` | Działający baner zgód, GA4 i konwersję Google Ads, sprawdzone testem (także odmowy zgód i pustego formularza) |
-| 2 | `google-ads-2-oferta` | Jedną stronę: dla kogo, problem, obietnica, dowody, czym się różnisz, tematy do reklam |
-| 3 | `google-ads-3-kampania` | Kampanię gotową do wklejenia: grupy reklam, słowa kluczowe, wykluczenia, reklamy, ustawienia i listę kontrolną |
+| 2 | `google-ads-2-oferta` | Porównanie z trzema konkurentami (co masz, czego nie masz, przewagi) i frazy sprawdzone w Planerze słów kluczowych: ile osób szuka i ile kosztuje kliknięcie |
+| 3 | `google-ads-3-kampania` | Kampanię na tych frazach: grupy reklam, słowa kluczowe, wykluczenia, reklamy, przejście przez panel ekran po ekranie i listę kontrolną |
 
 Idź po kolei. Każdy skill zapisuje wynik w pliku `moja-firma.md`, a następny go czyta, więc na te same pytania odpowiadasz raz.
 
@@ -71,7 +71,7 @@ W zwykłym czacie plik nie przechodzi między rozmowami. Na końcu każdego skil
 Żeby zacząć, napisz po prostu, czego chcesz:
 
 - „Ustaw mi pomiar pod Google Ads.” albo „Sprawdź, czy mój formularz się liczy.”
-- „Sprawdź, jak się reklamować i co robi konkurencja.”
+- „Sprawdź, jak się reklamować i co robi konkurencja.” i wklej link do swojej strony. Skill 2 działa też w pustym folderze.
 - „Przygotuj moją pierwszą kampanię Google Ads.”
 
 Każdy skill kończy się konkretnym wynikiem i mówi, który jest następny.

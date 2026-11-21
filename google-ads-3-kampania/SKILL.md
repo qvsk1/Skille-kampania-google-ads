@@ -5,14 +5,14 @@ description: Układa pierwszą kampanię Google Ads w wyszukiwarce - grupy rekla
 
 # Pierwsza kampania w wyszukiwarce Google
 
-Układasz z osobą początkującą jedną kampanię w wyszukiwarce: od rozmowy o celu i budżecie do listy kontrolnej przed kliknięciem „Opublikuj”. Kampanię w panelu Google Ads zakłada użytkownik, Ty dajesz gotowe teksty i ustawienia do przeklikania.
+Układasz z osobą początkującą jedną kampanię w wyszukiwarce: od rozmowy o celu i budżecie do listy kontrolnej przed kliknięciem „Opublikuj”. Kampanię w panelu Google Ads zakłada użytkownik, a Ty dajesz gotowe teksty i prowadzisz go przez panel ekran po ekranie.
 
 Wynik: kampania gotowa do wklejenia i zapis w pliku `moja-firma.md`.
 
 ## Zasady
 
 - Jedna kampania, 2–3 grupy reklam. Więcej na start rozprasza budżet.
-- Nie wymyślasz. Liczby, ceny, gwarancje i opinie bierzesz tylko z `moja-firma.md` albo od użytkownika. Gdy czegoś brakuje, wpisujesz `[BRAK: co potrzebne]` i pytasz. Nie podajesz też z głowy cen kliknięć ani liczby wyszukiwań.
+- Nie wymyślasz. Liczby, ceny, gwarancje i opinie bierzesz tylko z `moja-firma.md` albo od użytkownika. Gdy czegoś brakuje, wpisujesz `[BRAK: co potrzebne]` i pytasz. Liczby wyszukiwań i ceny kliknięć bierzesz tylko z tabel w sekcji „Oferta i rynek”, nigdy z głowy.
 - Limity znaków są twarde. Każdy tekst reklamy liczysz przed oddaniem; jeśli możesz uruchomić kod, licz kodem, nie na oko.
 - Jeden krok naraz, prostym językiem. Każdy etap pokazujesz i czekasz na „ok” albo poprawki.
 - Panel Google Ads się zmienia. Gdy użytkownik widzi coś innego, niż opisujesz, poproś o zrzut i prowadź z tego, co jest na ekranie.
@@ -21,7 +21,8 @@ Wynik: kampania gotowa do wklejenia i zapis w pliku `moja-firma.md`.
 
 Poszukaj w folderze użytkownika pliku `moja-firma.md` i przeczytaj go. Jeśli nie masz dostępu do plików, poproś o wklejenie jego treści, a na końcu oddaj cały zaktualizowany plik w jednym bloku do zapisania.
 
-- **Brak sekcji „Oferta i rynek”:** powiedz, że robi ją skill `google-ads-2-oferta`. Jeśli użytkownik chce iść dalej bez niego, zapytaj o cztery rzeczy: adres strony i co sprzedaje, kto kupuje, czym się różni od konkurencji, jakie ma dowody.
+- **Jest sekcja „Oferta i rynek”:** bierzesz z niej obietnicę, dowody, przewagi, tematy z frazami i wykluczenia. O nic z tego nie pytasz drugi raz.
+- **Brak sekcji „Oferta i rynek”:** powiedz, że robi ją skill `google-ads-2-oferta` i że bez niej kampania powstanie bez danych o wyszukiwaniach. Jeśli użytkownik chce iść dalej, zapytaj o cztery rzeczy: adres strony i co sprzedaje, kto kupuje, czym się różni od konkurencji, jakie ma dowody.
 - **Brak sekcji „Pomiar” albo test nie przeszedł:** powiedz wprost, że bez działającej konwersji nie będzie widać, które kliknięcia sprzedają, i że pomiar ustawia skill `google-ads-1-pomiar`. Jeśli użytkownik mimo to chce ruszyć, idź dalej i wpisz to jako pierwszy punkt listy kontrolnej.
 
 ## Krok 1. Cel, budżet, obszar
@@ -30,18 +31,20 @@ Zapytaj w jednej krótkiej rundzie:
 
 1. Co ma dać kampania: zakupy, formularze czy telefony? Podpowiedz konwersję z „Podstaw”.
 2. Ile możesz wydawać dziennie? Jeśli użytkownik zna tylko kwotę miesięczną, podziel ją przez 30.
-3. Gdzie mają się wyświetlać reklamy: cała Polska, województwo czy miasto z promieniem?
+3. Gdzie mają się wyświetlać reklamy: cała Polska, województwo czy miasto z promieniem? Podpowiedz obszar z sekcji „Oferta i rynek”.
 4. Czego nie sprzedajesz, a ludzie o to pytają? To pójdzie do wykluczeń.
+
+Gdy w pliku są stawki za górę strony, od razu przelicz budżet: podziel kwotę dzienną przez typowy górny zakres stawki wybranych fraz i powiedz, ile to mniej więcej kliknięć dziennie. Poniżej 10 kliknięć powiedz wprost, że budżet jest za mały na te frazy, i daj dwa wyjścia: większy budżet albo tańsze frazy.
 
 ## Krok 2. Grupy reklam
 
-Z „Tematów do reklam” wybierz 2–3 i zrób z każdego jedną grupę reklam. Jedna grupa to jedna potrzeba klienta i jedna strona docelowa, która na tę potrzebę odpowiada.
+Z tematów w sekcji „Oferta i rynek” wybierz 2–3 i zrób z każdego jedną grupę reklam. Bierz te, które mają najwięcej wyszukiwań i pasującą podstronę. Jedna grupa to jedna potrzeba klienta i jedna strona docelowa, która na tę potrzebę odpowiada.
 
-Pokaż tabelę: nazwa grupy, czego szuka klient, adres strony docelowej. Gdy dla tematu nie ma pasującej podstrony, powiedz to i zaproponuj inny temat albo stronę główną. Poczekaj na „ok”.
+Pokaż tabelę: nazwa grupy, czego szuka klient, wyszukiwania miesięcznie, adres strony docelowej. Gdy dla tematu nie ma pasującej podstrony, powiedz to i zaproponuj inny temat albo stronę główną. Poczekaj na „ok”.
 
 ## Krok 3. Słowa kluczowe
 
-Dla każdej grupy 5–10 słów kluczowych, czyli zapytań, na które ma się pokazać reklama. Piszesz je słowami klienta z sekcji „Oferta i rynek”.
+Dla każdej grupy 5–10 słów kluczowych, czyli zapytań, na które ma się pokazać reklama. Bierzesz je z tabeli fraz danego tematu, zaczynając od tych z największą liczbą wyszukiwań. Gdy frazy mają dopisek „niesprawdzone” albo tabeli nie ma, piszesz je słowami klienta i mówisz, że to lista bez danych.
 
 - Dopasowanie do wyrażenia zapisujesz w cudzysłowie: `"serwis pieców gazowych"`. Reklama pokaże się na zapytania o tym samym znaczeniu.
 - Dopasowanie ścisłe zapisujesz w nawiasach kwadratowych: `[serwis pieca gazowego kraków]`. Używaj go dla 2–3 najważniejszych zapytań.
@@ -53,6 +56,7 @@ Oddaj słowa w bloku do skopiowania, jedno w linii, osobno dla każdej grupy. To
 
 Jedna lista wykluczających słów kluczowych dla całej kampanii, 10–20 pozycji, jedno w linii:
 
+- wykluczenia zapisane w sekcji „Oferta i rynek”,
 - rzeczy, których użytkownik nie sprzedaje (z pytania 4),
 - szukanie za darmo i samodzielne: darmowe, za darmo, jak zrobić, samemu, poradnik,
 - szukanie pracy i nauki: praca, zarobki, kurs, szkolenie,
@@ -103,16 +107,16 @@ Teksty reklamy (do 90 znaków)
 
 Nagłówków nie przypinasz do pozycji. Po oddaniu przelicz znaki jeszcze raz i popraw każdy tekst ponad limit.
 
-## Krok 6. Ustawienia kampanii do przeklikania
+## Krok 6. Zakładanie kampanii w panelu
 
-Daj użytkownikowi tę listę z jego wartościami. Przechodzi ją w Google Ads po kolei, od „Kampanie” → „Nowa kampania”.
+Prowadź użytkownika przez kreator ekran po ekranie, od „Kampanie” → „Nowa kampania”. Na każdym ekranie mówisz, co ustawić i jaką wartość wpisać, i czekasz na „zrobione” albo zrzut. Tabela niżej to kolejność i wartości; wstaw w nią dane użytkownika.
 
 | Gdzie | Co ustawić |
 |---|---|
 | Cel | „Sprzedaż” albo „Potencjalni klienci”, zgodnie z konwersją |
 | Typ kampanii | „Sieć wyszukiwania” |
 | Cel konwersji | tylko konwersja z sekcji „Pomiar” |
-| Określanie stawek | „Maksymalizacja liczby kliknięć” z maksymalną stawką za kliknięcie równą jednej dziesiątej budżetu dziennego |
+| Określanie stawek | „Maksymalizacja liczby kliknięć” z maksymalną stawką za kliknięcie |
 | Sieci | odznaczone „Uwzględnij partnerów w sieci wyszukiwania Google” i „Sieć reklamowa” |
 | Lokalizacje | obszar z kroku 1; w opcjach lokalizacji „Obecność” |
 | Języki | polski |
@@ -121,6 +125,8 @@ Daj użytkownikowi tę listę z jego wartościami. Przechodzi ją w Google Ads p
 | Grupy reklam | nazwy, słowa i reklamy z kroków 2–5 |
 | Wykluczenia | lista z kroku 4, dodana na poziomie kampanii |
 | Rekomendacje | na stronie „Rekomendacje” wyłączone „Automatycznie stosuj rekomendacje” |
+
+Maksymalna stawka za kliknięcie: typowy górny zakres stawki za górę strony wybranych fraz, czyli wartość ze środka listy, nie najwyższa. Gdy danych z Planera nie ma, weź jedną dziesiątą budżetu dziennego i powiedz, że po tygodniu trzeba ją sprawdzić na realnych kosztach.
 
 Wyjaśnij stawki jednym zdaniem: na start kampania kupuje kliknięcia z limitem ceny, a po około 20 konwersjach w 30 dni użytkownik zmienia strategię na „Maksymalizacja liczby konwersji”.
 
